@@ -1,0 +1,25 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#0b0f14;
+color:white;
+text-align:center;
+margin:0;
+}
+
+.wrap{
+max-width:420px;
+margin:auto;
+padding:20px;
+}
+
+.marquee{
+background:#111;
+padding:8px;
+margin-bottom:15px;
+}
