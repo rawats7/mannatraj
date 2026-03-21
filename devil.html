@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Devil Sureshots</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Poppins,sans-serif;
+  background:#071013;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+}
+
+.wrap{
+  width:90%;
+  max-width:380px;
+  background:#071e1d;
+  padding:20px;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 0 20px rgba(0,255,200,.2);
+}
+
+.marquee{
+  background:#13f2ff;
+  color:#000;
+  padding:8px;
+  font-weight:700;
+  border-radius:10px;
+}
+
+.profile img{
+  width:140px;
+  height:140px;
+  border-radius:15px;
+  margin:15px 0;
+}
+
+h1{font-size:22px;margin:5px 0;}
+.sub{font-size:13px;opacity:.7;}
+
+.btn{
+  display:block;
+  margin:15px 0;
+  padding:15px;
+  border-radius:30px;
+  background:#0ef2d5;
+  color:#000;
+  font-weight:800;
+  text-decoration:none;
+}
+
+.timer{
+  margin:15px 0;
+  font-size:20px;
+}
+
+.features div{
+  font-size:13px;
+  margin:5px 0;
+  opacity:.8;
+}
+
+.footer{
+  margin-top:20px;
+  font-size:12px;
+}
+
+.footer a{
+  color:red;
+  font-weight:900;
+  text-decoration:none;
+}
+</style>
+
+<script>
+let t=1800;
+setInterval(()=>{
+  let m=Math.floor(t/60),s=t%60;
+  document.getElementById("t").innerText=
+    String(m).padStart(2,'0')+":"+String(s).padStart(2,'0');
+  if(t>0)t--;
+},1000);
+</script>
+
+</head>
+<body>
+
+<div class="wrap">
+
+<div class="marquee">
+<marquee>🔥 FREE VIP • JOIN FAST 🔥</marquee>
+</div>
+
+<div class="profile">
+<img src="devil.jpg">
+</div>
+
+<h1>THE DEVIL JOURNEY</h1>
+<div class="sub">FREE SURESHOT VIP HACKS</div>
+
+<a class="btn" href="https://t.me/+zy2zJnUmScUzODc1">
+JOIN TELEGRAM
+</a>
+
+<div class="timer" id="t">30:00</div>
+
+<div class="features">
+<div>⭐ 100% WIN</div>
+<div>⭐ LOSS RECOVERY</div>
+<div>⭐ 30K–50K INCOME</div>
+</div>
+
+<div class="footer">
+Ads Managed By 
+<a href="https://t.me/Wishmaster070">MANNAT VENOM</a>
+</div>
+
+</div>
+
+</body>
+</html>
